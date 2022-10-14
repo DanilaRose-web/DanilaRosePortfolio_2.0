@@ -1,0 +1,42 @@
+* {
+   box-sizing: border-box;
+}
+
+html, body {
+  /* height: 100%; */
+}
+
+html {
+   scrollbar-width: none; /* Firefox */
+}
+
+body {
+   font-family: 'Futura New', sans-serif;
+   position: relative;
+   box-sizing: border-box;
+}
+
+body.hidden {
+  overflow: hidden;
+}
+
+a:hover, a:focus, a:active, a {
+   text-decoration: none;
+   outline: none;
+}
+
+input:hover, input:focus, input:active, input, button:hover, button:focus, button:active, button {
+   border: none;
+   outline: none;
+}
+
+.colors {
+   color: #e5383e;
+   color: #2b2a30;
+   color: #c0b6b6;
+   color: #aaaaaa;
+   color: #7a787b;
+   color: #fdfdfd;
+   color: #E20048;
+   transition: all 0.2s ease-out;
+}
